@@ -1,0 +1,177 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(98, 71, 170);
+    color: white;
+    margin: 0px;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header
+{
+    position: fixed;
+    transform: translate(-50%, -50% );
+    top: 50px;
+    margin-top: 30px;
+    left: 50%;
+    width: 50%;
+    border-radius: 30px;
+    height: 80px;
+    background-color: white;
+    color: white;
+
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    transition: 0.4s;
+
+}
+
+.header.scrolled
+{
+    background-color: white; /* Imposta lo sfondo bianco quando la classe 'scrolled' è attiva */
+    color: rgb(98, 71, 170); /* Cambia il colore del testo per garantire una buona leggibilità su sfondo bianco */
+    transition: 0.4s;
+}
+
+
+ul
+{
+  position: absolute;
+  transform: translate(-50%, -50% );
+  top: 50%;
+  left: 50%;
+  list-style: none;
+  justify-content: center;
+  width: 40%;
+  padding-inline-start: 0px!important;
+  justify-content: space-between;
+}
+
+li
+{
+  display: inline;
+  margin-left: 10%;
+}
+
+#logoHeader
+{
+    position: absolute;
+    transform: translate(0%, -50%);
+    top: 50%;
+    left: 1%;
+    height: 70%;
+}
+
+#logoHeader2
+{
+    position: absolute;
+    transform: translate(0%, 25%);
+    right: 1%;
+    height: 70%;
+}
+
+.linkHeader
+{
+    font-size: 25px;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+.linkHeader:hover
+{
+    transition: 0.2s;
+    color: rgb(160, 108, 213);
+}
+
+.title
+{
+    margin-top:  200px;
+    font-size: 70px;
+}
+
+.subtitle
+{
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#mockupHome
+{
+    margin-top: 50px;
+    height: 500px;
+}
+
+.separator
+{
+    width: 50%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 50px;
+}
+
+footer
+{
+    background-color: rgb(98, 71, 170);
+    padding: 45px;
+}
+
+#linkFooter
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(226, 207, 234);
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(160, 108, 213);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+#copyright
+{
+    margin-top: 30px;
+    margin-bottom: -30px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}

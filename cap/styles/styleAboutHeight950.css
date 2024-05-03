@@ -1,0 +1,270 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(98, 71, 170);
+    color: white;
+    margin: 0px;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header
+{
+    position: fixed;
+    transform: translate(-50%, -50% );
+    top: 50px;
+    margin-top: 20px;
+    left: 50%;
+    width: 50%;
+    border-radius: 30px;
+    height: 80px;
+    color: white;
+
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    transition: 0.4s;
+
+}
+
+.header.scrolled
+{
+    background-color: white; /* Imposta lo sfondo bianco quando la classe 'scrolled' è attiva */
+    color: rgb(98, 71, 170); /* Cambia il colore del testo per garantire una buona leggibilità su sfondo bianco */
+
+    transition: 0.4s;
+}
+
+.header.scrolled2
+{
+    background-color: rgb(98, 71, 170); /* Imposta lo sfondo bianco quando la classe 'scrolled' è attiva */
+    color: rgb(98, 71, 170); /* Cambia il colore del testo per garantire una buona leggibilità su sfondo bianco */
+
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+
+    transition: 0.4s;
+}
+
+
+ul
+{
+  position: absolute;
+  transform: translate(-50%, -50% );
+  top: 50%;
+  left: 50%;
+  list-style: none;
+  justify-content: center;
+  width: 40%;
+  padding-inline-start: 0px!important;
+  justify-content: space-between;
+}
+
+li
+{
+  display: inline;
+  margin-left: 10%;
+}
+
+#logoHeader
+{
+    position: absolute;
+    transform: translate(0%, -50%);
+    top: 50%;
+    left: 1%;
+    height: 70%;
+}
+
+#logoHeader2
+{
+    position: absolute;
+    transform: translate(0%, 25%);
+    right: 1%;
+    height: 70%;
+}
+
+.linkHeader
+{
+    font-size: 25px;
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+.linkHeader:hover
+{
+    transition: 0.2s;
+    color: rgb(160, 108, 213);
+}
+
+.title
+{
+    margin-top:  200px;
+    font-size: 70px;
+}
+
+.subtitle
+{
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.content
+{
+    margin: auto;
+    /*margin-top: 50px;*/
+    font-size: 20px;
+    padding: 10px;
+    width: 900px;
+    text-align: center;
+}
+
+#mockupAbout
+{
+    margin-top: 50px;
+    height: 250px;
+}
+
+.separator
+{
+    width: 50%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 50px;
+}
+
+footer
+{
+    background-color: rgb(98, 71, 170);
+    padding: 45px;
+}
+
+#linkFooter
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(226, 207, 234);
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(160, 108, 213);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+.about
+{
+    margin-top: 100px;
+    height: 1080px;
+    color: rgb(98, 71, 170);
+    background-color: white;
+}
+
+.teamTitle
+{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.teamContainer, .teamContainer1
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10%;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 80px
+}
+
+.team
+{
+    height: 400px;
+    width: 400px;
+}
+
+.teamImg
+{
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+}
+
+.personTitle, .personRole
+{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.personTitle
+{
+    font-weight: bold;
+}
+
+.socialContainer
+{
+    margin-top: 10px;
+}
+
+.logoLi, .logoIg, .logoTw
+{
+    height: 20px;
+}
+
+.logoLi
+{
+    margin-right: 20px;
+}
+
+.logoTw
+{
+    margin-left: 20px;
+}
+
+#copyright
+{
+    margin-top: 30px;
+    margin-bottom: -30px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}

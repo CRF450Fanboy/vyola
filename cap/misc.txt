@@ -1,0 +1,17 @@
+https://coolors.co/e2cfea-a06cd5-6247aa-102b3f-062726
+
+home, dashboard, store, about
+
+todo - dashboard, store, review
+
+account(
+    id
+    username
+    password
+    name
+    surname
+    dob
+    created at
+    edited at
+    balance
+)
